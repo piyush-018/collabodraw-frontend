@@ -1,0 +1,1 @@
+export type Tool = 'select' | 'draw' | 'line' | 'rectangle' | 'circle' | 'text' | 'eraser' | 'laser' | 'sticky';

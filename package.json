@@ -9,9 +9,17 @@
     "lint": "eslint"
   },
   "dependencies": {
+    "@clerk/nextjs": "^7.5.12",
+    "@clerk/themes": "^2.4.57",
+    "clsx": "^2.1.1",
+    "fabric": "^7.4.0",
+    "jspdf": "^4.2.1",
+    "lucide-react": "^1.23.0",
     "next": "16.2.10",
     "react": "19.2.4",
-    "react-dom": "19.2.4"
+    "react-dom": "19.2.4",
+    "socket.io-client": "^4.8.3",
+    "tailwind-merge": "^3.6.0"
   },
   "devDependencies": {
     "@tailwindcss/postcss": "^4",
