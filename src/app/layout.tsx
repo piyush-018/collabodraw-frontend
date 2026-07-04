@@ -8,7 +8,7 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <ClerkProvider appearance={{ baseTheme: dark }}>
+    <ClerkProvider appearance={{ baseTheme: dark }as any}>
       <html lang="en">
         <body className="flex flex-col h-screen overflow-hidden bg-background text-foreground">
           {/* Top Navbar */}
