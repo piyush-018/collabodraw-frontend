@@ -41,7 +41,7 @@ export default function BoardPage() {
       }
     };
     socket.on('cursor-move', handleIncoming);
-    return () => socket.off('cursor-move', handleIncoming);
+    return () => { socket.off('cursor-move', handleIncoming); };
   }, []);
 
   useEffect(() => {
