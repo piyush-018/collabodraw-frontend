@@ -79,11 +79,13 @@ git clone <your-frontend-repo-url>
 cd collabodraw-frontend
 npm install
 npm run dev
-
-(Requires a .env.local file with Clerk API keys).
+```
+*(Requires a `.env.local` file with Clerk API keys).*
 
 ### 2. Backend Setup
+```bash
 git clone <your-backend-repo-url>
 cd collabodraw-backend
 npm install
 node server.js
+```
