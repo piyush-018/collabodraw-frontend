@@ -26,7 +26,7 @@ export default function RootLayout({
               
               {/* Jab user logged in ho */}
               <Show when="signed-in">
-                <UserButton fallbackRedirectUrl="/" />
+                <UserButton />
               </Show>
             </div>
           </header>
