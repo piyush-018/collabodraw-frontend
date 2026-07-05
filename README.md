@@ -21,6 +21,8 @@ We systematically built and shipped the requirements outlined in the problem sta
 ## Unique Selling Propositions (USPs)
 
 ### 1. The "Command Center" vs. "Canvas" UI (Context-Aware Chat)
+*(Note for Evaluators: The Chat system is an authenticated feature. Please **Sign In** using the button at the top right to access the Command Center and the live chat panel).*
+
 Our UI respects the device you are using. 
 * **On Web/Desktop:** You get the full "Command Center" experience, with a live chat box visible on the side to text while you draw.
 * **On Mobile:** We dynamically **hide the chat box** to dedicate 100% of the screen real estate to the drawing canvas. Mobile users need space to draw, not a cramped UI.
