@@ -1,24 +1,24 @@
-# 🎨 CollaboDraw Studio
+# CollaboDraw Studio
 
 ![Live Demo](https://img.shields.io/badge/Live_Demo-Click_Here-blue?style=for-the-badge) 
 **[Experience CollaboDraw Live](https://collabodraw-frontend-seven.vercel.app)**
 
-**CollaboDraw Studio** is a low-latency, real-time multiplayer whiteboard built for frictionless visual brainstorming. It bridges the gap between chaotic multiplayer drawing and highly accessible, power-user-friendly tools.
+CollaboDraw Studio is a low-latency, real-time multiplayer whiteboard built for frictionless visual brainstorming. It bridges the gap between chaotic multiplayer drawing and highly accessible, power-user-friendly tools.
 
 ---
 
-## 🏆 Hackathon Objective Mapping (100% Completed)
+## Hackathon Objective Mapping (100% Completed)
 
-We systematically built and shipped every requirement outlined in the problem statement, alongside high-value bonuses:
+We systematically built and shipped the requirements outlined in the problem statement, aligning with the official evaluation tiers:
 
-* **✅ Level 1 (Core Canvas):** Fully implemented freehand drawing, dynamic shapes (Rectangle, Circle, Line), laser pointer, eraser, stroke-width adjustments, and color palettes.
-* **✅ Level 2 (Real-Time Multiplayer):** WebSockets powered by Socket.io ensure zero-refresh live synchronization. Features dynamic room generation via unique URLs for private, instant sharing.
-* **✅ Level 3 (Advanced Features):** Secure, end-to-end user authentication flow (via Clerk) and one-click canvas exports to **PNG, JPG, and PDF**.
-* **🚀 Bonus Implementations:** Custom Text-to-Speech (accessibility), rapid keyboard shortcuts, instant emoji reactions, and a context-aware responsive UI.
+* **Level 1 (Core Functionality):** Fully implemented secure User Authentication (via Clerk), Board Management (unique room generation), Real-Time Collaboration (via Socket.io), and core drawing tools (Pen, Shapes, Eraser) with dynamic color and stroke adjustments.
+* **Level 2 (Intermediate Features):** Ensured seamless Sharing via shareable board URLs and delivered a strictly Responsive Design optimized for desktop, tablet, and mobile viewing.
+* **Level 3 (Advanced Features):** Integrated robust Image Support (configured as anchored reference layers) and one-click Export Options to PNG, JPG, and PDF formats.
+* **Bonus Implementations:** Successfully delivered a Real-Time Chat System (Bonus C), Sticky Notes (Bonus A), Laser Pointer (Bonus B), and extensive Keyboard Shortcuts (Bonus E). Additionally, we innovated beyond the rubric with custom Text-to-Speech (accessibility) and instant Emoji Reactions.
 
 ---
 
-## 🔥 Unique Selling Propositions (USPs)
+## Unique Selling Propositions (USPs)
 
 ### 1. The "Command Center" vs. "Canvas" UI (Context-Aware Chat)
 Our UI respects the device you are using. 
@@ -33,7 +33,7 @@ To make CollaboDraw inclusive, we integrated Text-to-Speech functionality. Users
 
 ---
 
-## ⌨️ Power-User Keyboard Shortcuts
+## Power-User Keyboard Shortcuts
 
 Never break your creative flow. Switch tools instantly with your keyboard:
 
@@ -50,7 +50,7 @@ Never break your creative flow. Switch tools instantly with your keyboard:
 
 ---
 
-## 🧠 Strategic Engineering & UX Decisions
+## Strategic Engineering & UX Decisions
 
 Building a distributed real-time system comes with complex state-management challenges. We made strict design choices to prioritize stability over chaos:
 
@@ -62,7 +62,7 @@ Building a distributed real-time system comes with complex state-management chal
 
 ---
 
-## 💻 Tech Stack
+## Tech Stack
 
 * **Frontend:** Next.js (React), TypeScript, Tailwind CSS
 * **Backend:** Node.js, Express, Socket.io
@@ -70,6 +70,7 @@ Building a distributed real-time system comes with complex state-management chal
 * **Auth & Deployment:** Clerk, Vercel (Frontend), Render (Backend)
 
 ---
+
 
 ## 🚀 Run Locally
 
